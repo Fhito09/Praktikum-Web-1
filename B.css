@@ -1,0 +1,139 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+}
+
+/* HEADER */
+header {
+    background-color: #f4f4f4;
+    display: flex;
+    padding: 1rem 1rem; 
+    justify-content: space-between;
+    height: 7vh;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #191919;
+    font-weight: 600;
+    padding: 3px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(0, 0, 255, 0);
+}
+
+header ul li a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+/* HEADER END */
+
+/* SIDEBAR */
+.container {
+    display: flex;
+    height: 88vh;
+}
+
+.sidebar {
+    background-color:rgb(232, 231, 231);
+    width:20vh;
+}
+
+.li-sidebar {
+    list-style: none;
+}
+
+div div ul li a {
+    color: #494949;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block ;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    transition-duration: 300ms;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+div div ul li a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+div div ul li a i {
+    width: 40px;
+    text-align: center;
+} 
+
+.content {
+    width: 160vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.galeri {
+    background-color:#ededed;
+    position: relative;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+
+}
+
+.footer {
+    position: fixed;
+    height: 6vh;
+    width: 100%;
+    background-color: #aaa8a8;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.ul-footer {
+    display: flex;
+    padding: 0.5rem;
+    align-content: center;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ul-footer li a {
+    color: #494949;
+    font-weight: 500;
+    display: block ;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+    transition-duration: 300ms;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ul-footer li a:hover {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+.ul-footer li a i {
+    width: 40px;
+    text-align: center;
+}
